@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Vercel Test Site</title>
+    <meta
+      name="description"
+      content="A small static website for testing Vercel deployments."
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <section class="hero" aria-labelledby="site-title">
+        <p class="eyebrow">Static deploy check</p>
+        <h1 id="site-title">Vercel Test Site</h1>
+        <p class="intro">
+          If this page is visible, your static deployment is working.
+        </p>
+        <div class="actions" aria-label="Deployment checks">
+          <span class="status status-live">Ready</span>
+          <span class="status">HTML</span>
+          <span class="status">CSS</span>
+        </div>
+      </section>
+
+      <section class="checks" aria-label="Test checklist">
+        <article>
+          <span class="number">01</span>
+          <h2>Static files</h2>
+          <p>No build command is required. Vercel can serve index.html directly.</p>
+        </article>
+        <article>
+          <span class="number">02</span>
+          <h2>Responsive layout</h2>
+          <p>The page adapts cleanly across mobile and desktop screens.</p>
+        </article>
+        <article>
+          <span class="number">03</span>
+          <h2>Vercel routing</h2>
+          <p>vercel.json routes every path back to the home page.</p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
