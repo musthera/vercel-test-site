@@ -3,43 +3,44 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Vercel Test Site</title>
+    <title>Vercel Redeploy Check</title>
     <meta
       name="description"
-      content="A small static website for testing Vercel deployments."
+      content="A bold visual update for checking Vercel automatic redeploys."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <main class="shell">
       <section class="hero" aria-labelledby="site-title">
-        <p class="eyebrow">Static deploy check</p>
-        <h1 id="site-title">Vercel Test Site</h1>
+        <p class="eyebrow">Redeploy trigger test</p>
+        <h1 id="site-title">Auto Deploy Updated</h1>
         <p class="intro">
-          If this page is visible, your static deployment is working.
+          This bright version was committed after the first Vercel deployment.
+          If you see it live, GitHub changes are redeploying correctly.
         </p>
         <div class="actions" aria-label="Deployment checks">
-          <span class="status status-live">Ready</span>
-          <span class="status">HTML</span>
-          <span class="status">CSS</span>
+          <span class="status status-live">Changed</span>
+          <span class="status">GitHub commit</span>
+          <span class="status">Vercel redeploy</span>
         </div>
       </section>
 
       <section class="checks" aria-label="Test checklist">
         <article>
           <span class="number">01</span>
-          <h2>Static files</h2>
-          <p>No build command is required. Vercel can serve index.html directly.</p>
+          <h2>New headline</h2>
+          <p>The page title and hero message now look completely different.</p>
         </article>
         <article>
           <span class="number">02</span>
-          <h2>Responsive layout</h2>
-          <p>The page adapts cleanly across mobile and desktop screens.</p>
+          <h2>New colors</h2>
+          <p>The calm green palette has been replaced by a high-contrast theme.</p>
         </article>
         <article>
           <span class="number">03</span>
-          <h2>Vercel routing</h2>
-          <p>vercel.json routes every path back to the home page.</p>
+          <h2>New commit</h2>
+          <p>This update should create a fresh Vercel deployment from main.</p>
         </article>
       </section>
     </main>
