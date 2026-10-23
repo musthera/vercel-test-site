@@ -52,5 +52,16 @@ header{background:#fff}.brand{flex-shrink:0}.association-logo{display:block;widt
 @font-face{font-family:"Bookk Myungjo";src:url("/assets/fonts/BookkMyungjo_Bold.woff2") format("woff2");font-style:normal;font-weight:600 900;font-display:swap}
 body{font-family:"Bookk Gothic","Malgun Gothic",sans-serif}input,select,textarea{font-family:inherit}h1,h2,h3,h4,h5,h6,.statement,.bottom-message p{font-family:"Bookk Myungjo","Batang",serif}
 
-/* Use BOOKK Myungjo Bold consistently for all serif headings. */
 h1,h2,h3,h4,h5,h6,.statement,.bottom-message p{font-weight:700!important}
+
+/* Jua body type and larger reading sizes */
+@font-face{font-family:"BM Jua";src:url("/assets/fonts/BMJUA.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
+body{font-family:"BM Jua","Malgun Gothic",sans-serif;font-size:18px;line-height:1.7}
+main p:not(.statement):not(.bottom-message p),main li,main dd,main dt,main blockquote{font-size:18px!important;line-height:1.85!important}
+main button,main summary,main label,main input,main select,.text-link,.button,.page-subnav a,.home-card-link{font-size:17px!important}
+nav a{font-size:16px!important}
+.project-tags span,.project-period>span,.project-live,.partner-role,.partner-name,.video-caption,.breadcrumb,.kicker,.project-category-description{font-size:15px!important}
+.footer-inner p,.footer-inner .footer-links a,.copyright{font-size:14px}
+.detail-page .project-institution-groups h4,.video-description h3{font-size:18px}
+@media(max-width:760px){body{font-size:17px}main p:not(.statement):not(.bottom-message p),main li,main dd,main dt,main blockquote{font-size:17px!important}main button,main summary,main label,.text-link,.button{font-size:16px!important}.home-section-heading{flex-wrap:wrap}.hero-actions{flex-wrap:wrap}.video-caption{flex-wrap:wrap}}
+@media(min-width:1021px) and (max-width:1250px){nav{gap:14px}.association-logo{width:245px}}
