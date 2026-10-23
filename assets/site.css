@@ -46,8 +46,8 @@ header{background:#fff}.brand{flex-shrink:0}.association-logo{display:block;widt
 .video-description{margin:0 0 24px;max-width:860px}.video-description h3{font-size:14px;font-weight:600;color:var(--green);margin:0 0 8px}.video-description p{font-size:15px;line-height:1.95;color:var(--muted);margin:0}
 
 /* BOOKK typography */
-@font-face{font-family:"Bookk Gothic";src:url("/assets/fonts/BookkGothic_Light.woff2") format("woff2");font-style:normal;font-weight:100 500;font-display:swap}
-@font-face{font-family:"Bookk Gothic";src:url("/assets/fonts/BookkGothic_Bold.woff2") format("woff2");font-style:normal;font-weight:600 900;font-display:swap}
+
+@font-face{font-family:"Bookk Gothic";src:url("/assets/fonts/BookkGothic_Bold.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
 @font-face{font-family:"Bookk Myungjo";src:url("/assets/fonts/BookkMyungjo_Light.woff2") format("woff2");font-style:normal;font-weight:100 500;font-display:swap}
 @font-face{font-family:"Bookk Myungjo";src:url("/assets/fonts/BookkMyungjo_Bold.woff2") format("woff2");font-style:normal;font-weight:600 900;font-display:swap}
 body{font-family:"Bookk Gothic","Malgun Gothic",sans-serif}input,select,textarea{font-family:inherit}h1,h2,h3,h4,h5,h6,.statement,.bottom-message p{font-family:"Bookk Myungjo","Batang",serif}
