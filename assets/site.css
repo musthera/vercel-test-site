@@ -51,3 +51,6 @@ header{background:#fff}.brand{flex-shrink:0}.association-logo{display:block;widt
 @font-face{font-family:"Bookk Myungjo";src:url("/assets/fonts/BookkMyungjo_Light.woff2") format("woff2");font-style:normal;font-weight:100 500;font-display:swap}
 @font-face{font-family:"Bookk Myungjo";src:url("/assets/fonts/BookkMyungjo_Bold.woff2") format("woff2");font-style:normal;font-weight:600 900;font-display:swap}
 body{font-family:"Bookk Gothic","Malgun Gothic",sans-serif}input,select,textarea{font-family:inherit}h1,h2,h3,h4,h5,h6,.statement,.bottom-message p{font-family:"Bookk Myungjo","Batang",serif}
+
+/* Use BOOKK Myungjo Bold consistently for all serif headings. */
+h1,h2,h3,h4,h5,h6,.statement,.bottom-message p{font-weight:700!important}
