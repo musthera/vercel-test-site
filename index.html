@@ -15,15 +15,29 @@ header{position:sticky;top:0;background:rgba(250,249,245,.97);border-bottom:1px 
 @media(max-width:1000px){.wrap{padding-left:26px;padding-right:26px}nav{gap:15px}nav a{font-size:12px}.brand strong{font-size:16px}.brand small{letter-spacing:2px}.hero-inner{min-height:540px;gap:15px}.split{gap:45px}.award-inner{gap:40px}}
 @media(max-width:760px){html{scroll-padding-top:85px}.wrap{padding-left:23px;padding-right:23px}.header-inner{height:75px}.brand strong{font-size:16px}.brand small{font-size:8px;letter-spacing:1.8px}.brand svg{width:30px}.menu{display:block}nav{display:none;position:absolute;left:0;right:0;top:75px;background:var(--paper);padding:12px 24px 22px;border-bottom:1px solid var(--line);flex-direction:column;gap:0}nav.open{display:flex}nav a{font-size:14px;padding:13px 0}.hero-inner{grid-template-columns:1fr;padding-top:48px;padding-bottom:25px;gap:30px}.hero h1{font-size:42px;letter-spacing:-2.5px;margin-top:25px}.hero p{font-size:14px}.eyebrow{font-size:10px;letter-spacing:1.5px}.art{width:80%;max-width:360px}.hero-actions{gap:20px}.hero-foot{font-size:9px;padding-top:20px}.section{padding:62px 0}.section-top{margin-bottom:30px}.section-title{font-size:28px}.section-index{font-size:9px;letter-spacing:1px}.split,.award-inner{grid-template-columns:1fr;gap:28px}.statement{font-size:28px}.body-copy{font-size:14px}.activities{grid-template-columns:1fr;gap:27px}.activity h3{margin-top:16px}.activity p{max-width:480px}.empty{gap:18px;padding:30px 0}.empty-symbol{width:48px;height:48px}.empty h3{font-size:16px}.empty p{font-size:12px}.gallery-head{align-items:flex-start;flex-direction:column}.gallery-space{min-height:230px}.bottom-message{padding:50px 20px}.bottom-message p{font-size:22px}.footer-inner{align-items:flex-start;flex-direction:column}.intro-line{margin-top:-5px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+
+/* Official association BI and activity video */
+header{background:#fff}.brand{flex-shrink:0}.association-logo{display:block;width:315px;max-width:100%;height:auto}.header-inner{height:98px}
+.gallery-space[hidden],.gallery-feature[hidden]{display:none}
+.gallery-feature{background:#fff;border:1px solid var(--line);padding:30px}
+.video-heading{display:flex;justify-content:space-between;gap:25px;align-items:center;margin-bottom:24px}
+.video-heading .kicker{margin-bottom:12px}.video-heading h3{font-size:36px;font-weight:500;letter-spacing:-1.5px;margin:0;line-height:1.4}
+.video-project{font-size:14px;line-height:1.8;color:var(--muted);margin:0;text-align:right}.video-project span{display:block;font-size:11px;letter-spacing:1px;color:var(--accent);margin-bottom:4px}
+.video-frame{aspect-ratio:16/9;width:100%;background:#111;position:relative}.video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video-caption{display:flex;justify-content:space-between;gap:15px;align-items:center;margin:16px 0 26px;font-size:12px;color:var(--muted);line-height:1.8}.video-caption p{margin:0}.video-caption a{white-space:nowrap;border-bottom:1px solid #a7b4a5;color:var(--green)}
+.partners{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border-top:1px solid var(--line);padding-top:24px;gap:22px}
+.partner{min-width:0}.partner-role{display:block;font-size:11px;color:var(--muted);margin-bottom:12px}.partner a{display:flex;align-items:center;justify-content:center;height:75px;background:white;border:1px solid #edeee9;padding:12px}.partner img{display:block;max-width:100%;max-height:100%;width:auto;height:auto}.partner .partner-name{font-size:11px;line-height:1.7;margin:9px 0 0;color:var(--muted)}.partner .arte-mark{width:100%;height:auto;max-height:100%}
+.gallery-status{font-size:12px;color:var(--muted);margin:15px 0 0}
+@media(max-width:1000px){.association-logo{width:275px}.header-inner{gap:15px}nav{gap:15px}}
+@media(max-width:760px){.header-inner{height:82px}.association-logo{width:235px}nav{top:82px}.gallery-feature{padding:18px}.video-heading{align-items:flex-start;flex-direction:column;gap:15px}.video-heading h3{font-size:30px}.video-project{text-align:left}.video-project span{display:inline;margin-right:8px}.video-caption{align-items:flex-start;flex-direction:column;margin-bottom:22px}.partners{grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 15px}.partner a{height:67px;padding:10px}.partner-name{font-size:10px}.gallery-head{gap:20px}}
+@media(max-width:360px){.association-logo{width:205px}.header-inner{gap:10px}}
 </style>
 </head>
 <body>
 <a href="#main" style="position:absolute;left:-9999px" onfocus="this.style.left='12px'" onblur="this.style.left='-9999px'">본문 바로가기</a>
 <div class="draft">홈페이지 시안 · 소개 및 활동 문구는 검토 중입니다.</div>
 <header><div class="wrap header-inner">
-<a class="brand" href="#" aria-label="한국예술치료교육협회 처음으로">
-<svg viewBox="0 0 40 48" aria-hidden="true"><path d="M20 44V21M20 32C3 33 1 20 3 10c12 0 19 6 17 22Z" fill="none" stroke="#244e40" stroke-width="1.8"/><path d="M20 23C20 8 28 3 37 3c1 11-5 20-17 20Z" fill="#a7b38b"/><circle cx="10" cy="5" r="4" fill="#c46c4f"/></svg>
-<span><strong>한국예술치료교육협회</strong><small>K · A T E A</small></span></a>
+<a class="brand" href="#main" aria-label="한국예술치료교육협회 처음으로"><img class="association-logo" src="assets/katea-bi.png" width="2791" height="689" alt="한국예술치료교육협회 KATEA"></a>
 <button class="menu" type="button" aria-expanded="false" aria-controls="navigation">메뉴</button>
 <nav id="navigation" aria-label="주요 메뉴"><a href="#about">협회 소개</a><a href="#history">협회 연혁</a><a href="#activities">협회가 하는 일</a><a href="#awards">협회 수상내역</a><a href="#gallery">협회 갤러리</a></nav>
 </div></header>
@@ -70,7 +84,19 @@ header{position:sticky;top:0;background:rgba(250,249,245,.97);border-bottom:1px 
 <section class="section gallery" id="gallery"><div class="wrap">
 <div class="section-top"><h2 class="section-title">협회 갤러리</h2><span class="section-index">05 / GALLERY</span></div>
 <div class="gallery-head"><p class="intro-line" style="margin:0">함께한 순간과 활동의 이야기를 사진과 영상으로 전합니다.</p><div class="filters" role="group" aria-label="갤러리 분류"><button type="button" data-filter="전체" aria-pressed="true">전체</button><button type="button" data-filter="사진" aria-pressed="false">사진</button><button type="button" data-filter="영상" aria-pressed="false">영상</button></div></div>
-<div class="gallery-space" role="status" aria-live="polite"><div><svg viewBox="0 0 48 48" fill="none" aria-hidden="true"><rect x="4" y="7" width="40" height="33" rx="3" stroke="currentColor" stroke-width="1.4"/><circle cx="16" cy="18" r="4" stroke="currentColor" stroke-width="1.4"/><path d="m5 34 10-10 10 9 8-13 11 16" stroke="currentColor" stroke-width="1.4"/></svg><h3 id="gallery-heading">갤러리를 준비하고 있습니다.</h3><p id="gallery-description">협회의 활동 사진과 영상이 등록되면 이곳에서 만나보실 수 있습니다.</p></div></div>
+<article class="gallery-feature" data-gallery-type="영상" aria-labelledby="video-title">
+<div class="video-heading"><div><p class="kicker">2026 · 활동 영상</p><h3 id="video-title">발을 구르다</h3></div><p class="video-project"><span>사업명</span>2026, 마음치유 봄처럼</p></div>
+<div class="video-frame"><iframe src="https://www.youtube-nocookie.com/embed/FaqzntUkGAo?rel=0" title="발을 구르다 | 2026, 마음치유 봄처럼" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div>
+<div class="video-caption"><p>2026, 마음치유 봄처럼 · 한국예술치료교육협회 운영</p><a href="https://www.youtube.com/watch?v=FaqzntUkGAo" target="_blank" rel="noopener noreferrer">YouTube에서 보기 ↗</a></div>
+<div class="partners" aria-label="사업 참여 기관">
+<div class="partner"><span class="partner-role">주최</span><a href="https://www.mcst.go.kr/site/s_about/intro/symbol.jsp" target="_blank" rel="noopener noreferrer" aria-label="문화체육관광부 공식 홈페이지"><img src="assets/mcst-logo.png" alt="문화체육관광부" loading="lazy" width="2154" height="477"></a><p class="partner-name">문화체육관광부</p></div>
+<div class="partner"><span class="partner-role">주관</span><a href="https://nurim.arte.or.kr/pltfrm/intro/bi.do" target="_blank" rel="noopener noreferrer" aria-label="한국문화예술교육진흥원 공식 CI 안내"><svg class="arte-mark" viewBox="160 310 660 150" role="img" aria-label="한국문화예술교육진흥원"><image href="assets/arte-ci.jpeg" width="962" height="1054"/></svg></a><p class="partner-name">한국문화예술교육진흥원</p></div>
+<div class="partner"><span class="partner-role">운영</span><a href="#about" aria-label="한국예술치료교육협회 소개"><img src="assets/katea-bi.png" alt="한국예술치료교육협회" loading="lazy" width="2791" height="689"></a><p class="partner-name">한국예술치료교육협회</p></div>
+<div class="partner"><span class="partner-role">협력시설</span><a href="http://www.goodboeun.com/" target="_blank" rel="noopener noreferrer" aria-label="보은군정신건강복지센터 공식 홈페이지"><img src="assets/boeun-logo.png" alt="보은군정신건강복지센터" loading="lazy" width="289" height="66"></a><p class="partner-name">보은군정신건강복지센터</p></div>
+</div>
+</article>
+<div class="gallery-space" id="gallery-empty" hidden role="status" aria-live="polite"><div><h3>등록된 사진이 없습니다.</h3><p>활동 사진이 등록되면 이곳에서 만나보실 수 있습니다.</p></div></div>
+<p class="gallery-status" id="gallery-count" role="status" aria-live="polite">전체 1건 · 영상 1건</p>
 </div></section>
 <div class="bottom-message"><p>예술이 건네는 이해,<br>배움이 만드는 새로운 시작.</p><small>한국예술치료교육협회 · K-ATEA</small></div>
 </main>
@@ -82,8 +108,10 @@ nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{menu.setAtt
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{
 document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
 const type=button.dataset.filter;
-document.getElementById('gallery-heading').textContent=type==='전체'?'갤러리를 준비하고 있습니다.':type+' 자료를 준비하고 있습니다.';
-document.getElementById('gallery-description').textContent=type==='전체'?'협회의 활동 사진과 영상이 등록되면 이곳에서 만나보실 수 있습니다.':'등록된 '+type+' 자료가 없습니다. 자료가 준비되면 안내하겠습니다.';
+const photos=type==='사진';
+document.querySelector('.gallery-feature').hidden=photos;
+document.getElementById('gallery-empty').hidden=!photos;
+document.getElementById('gallery-count').textContent=photos?'사진 0건':type==='영상'?'영상 1건':'전체 1건 · 영상 1건';
 }));
 document.getElementById('year').textContent=new Date().getFullYear();
 const observer=new IntersectionObserver(entries=>{for(const entry of entries){if(entry.isIntersecting){nav.querySelectorAll('a').forEach(a=>{if(a.hash==='#'+entry.target.id)a.setAttribute('aria-current','location');else a.removeAttribute('aria-current')})}}},{rootMargin:'-20% 0px -60% 0px'});
