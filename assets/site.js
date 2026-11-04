@@ -15,6 +15,6 @@ document.querySelectorAll('[data-project-filter]').forEach(button=>button.addEve
  document.querySelectorAll('[data-project-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
  document.getElementById('projects-healing').hidden=category!=='healing';
  document.getElementById('projects-education').hidden=category!=='education';
- document.getElementById('project-category-description').textContent=category==='healing'?'2020–2026 · 통합예술치유 사업':'2021–2026 · 영화·통기타 예술교육 사업';
+ document.getElementById('project-category-description').textContent=category==='healing'?'2020 ~ 2026 · 통합예술치유 사업':'2021 ~ 2026 · 영화·통기타 예술교육 사업';
 }));
 if(new URLSearchParams(window.location.search).get('field')==='education')document.querySelector('[data-project-filter="education"]')?.click();
