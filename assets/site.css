@@ -65,3 +65,6 @@ nav a{font-size:16px!important}
 .detail-page .project-institution-groups h4,.video-description h3{font-size:18px}
 @media(max-width:760px){body{font-size:17px}main p:not(.statement):not(.bottom-message p),main li,main dd,main dt,main blockquote{font-size:17px!important}main button,main summary,main label,.text-link,.button{font-size:16px!important}.home-section-heading{flex-wrap:wrap}.hero-actions{flex-wrap:wrap}.video-caption{flex-wrap:wrap}}
 @media(min-width:1021px) and (max-width:1250px){nav{gap:14px}.association-logo{width:245px}}
+
+/* Render middle dots with a system glyph in Jua text. */
+@font-face{font-family:"BM Jua";src:local("Arial"),local("Liberation Sans"),local("Roboto"),local("Helvetica");font-style:normal;font-weight:100 900;unicode-range:U+00B7}
