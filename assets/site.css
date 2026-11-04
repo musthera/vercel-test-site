@@ -56,17 +56,20 @@ h1,h2,h3,h4,h5,h6,.statement,.bottom-message p{font-weight:700!important}
 
 /* Jua body type and larger reading sizes */
 @font-face{font-family:"BM Jua";src:url("/assets/fonts/BMJUA.woff2") format("woff2");font-style:normal;font-weight:100 900;font-display:swap}
-body{font-family:"BM Jua","Malgun Gothic",sans-serif;font-size:20px;line-height:1.7}
-main p:not(.statement):not(.bottom-message p),main li,main dd,main dt,main blockquote{font-size:20px!important;line-height:1.85!important}
+body{font-family:"BM Jua","Malgun Gothic",sans-serif;font-size:21px;line-height:1.7}
+main p:not(.statement):not(.bottom-message p),main li,main dd,main dt,main blockquote{font-size:21px!important;line-height:1.8!important}
 main button,main summary,main label,main input,main select,.text-link,.button,.page-subnav a,.home-card-link{font-size:19px!important}
-nav a{font-size:18px!important}
+nav a{font-size:24px!important;line-height:1.4;white-space:nowrap}
 .project-tags span,.project-period>span,.project-live,.partner-role,.partner-name,.video-caption,.breadcrumb,.kicker,.project-category-description{font-size:17px!important}
 .footer-inner p,.footer-inner .footer-links a,.copyright{font-size:16px}
 .detail-page .project-institution-groups h4,.video-description h3{font-size:18px}
-@media(max-width:760px){body{font-size:19px}main p:not(.statement):not(.bottom-message p),main li,main dd,main dt,main blockquote{font-size:19px!important}main button,main summary,main label,.text-link,.button{font-size:18px!important}.home-section-heading{flex-wrap:wrap}.hero-actions{flex-wrap:wrap}.video-caption{flex-wrap:wrap}}
+@media(max-width:760px){body{font-size:20px}main p:not(.statement):not(.bottom-message p),main li,main dd,main dt,main blockquote{font-size:20px!important}main button,main summary,main label,.text-link,.button{font-size:18px!important}.home-section-heading{flex-wrap:wrap}.hero-actions{flex-wrap:wrap}.video-caption{flex-wrap:wrap}}
 @media(min-width:1021px) and (max-width:1250px){nav{gap:14px}.association-logo{width:245px}}
 
 /* Render middle dots with a system glyph in Jua text. */
 @font-face{font-family:"BM Jua";src:local("Arial"),local("Liberation Sans"),local("Roboto"),local("Helvetica");font-style:normal;font-weight:100 900;unicode-range:U+00B7,U+007E}
 
-body .hero #hero-title+p{font-size:clamp(21px,4.5cqw,23px)!important}.menu{font-size:18px}.section-index,.eyebrow{font-size:13px}.resources-section .pdf-dropzone small,.resources-section .pdf-quality small,.resources-section .pdf-file-info small,.resources-section .resources-privacy{font-size:15px}.resources-section .pdf-quality b,.resources-section .pdf-file-info strong{font-size:17px}
+body .hero #hero-title+p{font-size:clamp(22px,4.6cqw,24px)!important}.menu{font-size:23px;line-height:1.4}.section-index,.eyebrow{font-size:13px}.resources-section .pdf-dropzone small,.resources-section .pdf-quality small,.resources-section .pdf-file-info small,.resources-section .resources-privacy{font-size:15px}.resources-section .pdf-quality b,.resources-section .pdf-file-info strong{font-size:17px}
+
+@media(min-width:1021px) and (max-width:1179px){.menu{display:block}.header-inner{position:relative}nav{display:none;position:absolute;inset:100% 0 auto;background:#fff;padding:12px 24px;flex-direction:column;gap:0;border-bottom:1px solid var(--line)}nav.open{display:flex}}
+@media(max-width:1179px){nav.open{max-height:calc(100dvh - 88px);overflow-y:auto}nav a{font-size:23px!important;padding:10px 0}}
