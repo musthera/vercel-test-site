@@ -10,7 +10,7 @@ document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListen
  items.forEach(item=>{item.hidden=type!=='전체'&&item.dataset.galleryType!==type});
  const count=items.filter(item=>!item.hidden).length;
  document.getElementById('gallery-empty').hidden=count>0;
- document.getElementById('gallery-count').textContent=type==='전체'?'전체 2건 · 온라인 전시 1건 · 영상 1건':(type==='전시'?'온라인 전시':type)+' '+count+'건';
+ document.getElementById('gallery-count').textContent=type==='전체'?'전체 2건 · 작품전시회 1건 · 영상 1건':(type==='전시'?'작품전시회':type)+' '+count+'건';
 }));
 document.querySelectorAll('[data-project-filter]').forEach(button=>button.addEventListener('click',()=>{
  const category=button.dataset.projectFilter;
