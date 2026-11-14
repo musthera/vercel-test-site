@@ -5,10 +5,12 @@ document.addEventListener('keydown',event=>{if(event.key==='Escape'&&menu.getAtt
 document.getElementById('year').textContent=new Date().getFullYear();
 document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListener('click',()=>{
  document.querySelectorAll('[data-filter]').forEach(b=>b.setAttribute('aria-pressed',String(b===button)));
- const type=button.dataset.filter,photos=type==='사진';
- document.querySelector('.gallery-feature').hidden=photos;
- document.getElementById('gallery-empty').hidden=!photos;
- document.getElementById('gallery-count').textContent=photos?'사진 0건':type==='영상'?'영상 1건':'전체 1건 · 영상 1건';
+ const type=button.dataset.filter;
+ const items=[...document.querySelectorAll('[data-gallery-type]')];
+ items.forEach(item=>{item.hidden=type!=='전체'&&item.dataset.galleryType!==type});
+ const count=items.filter(item=>!item.hidden).length;
+ document.getElementById('gallery-empty').hidden=count>0;
+ document.getElementById('gallery-count').textContent=type==='전체'?'전체 2건 · 온라인 전시 1건 · 영상 1건':(type==='전시'?'온라인 전시':type)+' '+count+'건';
 }));
 document.querySelectorAll('[data-project-filter]').forEach(button=>button.addEventListener('click',()=>{
  const category=button.dataset.projectFilter;
