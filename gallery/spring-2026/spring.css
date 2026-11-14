@@ -16,3 +16,6 @@
 
 /* Distinguish chapter headings from individual artwork titles. */
 .spring-curated-heading h2{color:#236273;font-weight:700}.spring-work-copy h3{color:#9b4f38;font-weight:700}
+
+/* Larger, warm-colored chapter selection labels. */
+.spring-chapters strong{font-size:32px;line-height:1.35;font-weight:700;color:#9b4f38}.spring-chapter-theme{font-size:16px;line-height:1.5;color:#53625b}.spring-chapters a>span:first-child{font-size:13px;color:#236273}.spring-chapters a{gap:10px 16px}@media(max-width:800px){.spring-chapters strong{font-size:24px}.spring-chapter-theme{font-size:14px}.spring-chapters a{gap:9px 10px}.spring-chapters a>span:first-child{font-size:12px}}@media(max-width:380px){.spring-chapters a{grid-template-columns:1fr}.spring-chapters a>span:first-child{grid-row:auto;grid-column:1}.spring-chapters strong,.spring-chapter-theme{grid-column:1}}
