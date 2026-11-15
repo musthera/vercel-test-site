@@ -44,4 +44,6 @@
 
 .spring-about-bouquets{display:block;width:100%;height:auto;max-width:410px;margin:38px auto 0}@media(max-width:800px){.spring-about-bouquets{max-width:360px;margin-top:26px}}
 
+.spring-vessels{min-width:0;max-width:100%}@media(max-width:420px){.spring-chapters{grid-template-columns:1fr}.spring-chapters a{min-width:0}}
+
 .spring-page{--orange:var(--accent)}.spring-page .eyebrow{font-size:11px;letter-spacing:.15em;font-weight:600;color:var(--green);margin:0 0 24px}.spring-page .button{display:inline-flex;gap:50px;padding:17px 24px;background:var(--green);color:white;font-size:14px}.spring-page .text-link{font-size:13px}.spring-page .breadcrumb{font-size:12px;line-height:1.9;display:block}.spring-page .spring-nav,.spring-page .spring-chapters{position:static;background:none}.spring-page .spring-nav a{border:0}.spring-curated{scroll-margin-top:125px}.spring-back{padding-bottom:60px}@media(max-width:760px){.spring-page .spring-nav{display:flex!important;gap:20px;flex-wrap:wrap;width:100%}.spring-page .spring-chapters{display:grid!important}.spring-chapters a{padding:18px 13px}.spring-curated{scroll-margin-top:100px}}
