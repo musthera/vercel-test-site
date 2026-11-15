@@ -33,4 +33,6 @@
 .spring-intro-art-5{grid-template-columns:110px 1fr;align-items:center;max-width:335px;gap:12px}
 @media(max-width:800px){.spring-section-english{font-size:18px}.spring-intro-art{max-width:270px}.spring-intro-art-4,.spring-intro-art-6{max-width:145px}.spring-intro-art-5{max-width:310px;grid-template-columns:100px 1fr}}
 
+.spring-intention h3 strong{font-weight:900}.spring-intention .spring-intention-emphasis{color:#9b4f38;font-weight:700}
+
 .spring-page{--orange:var(--accent)}.spring-page .eyebrow{font-size:11px;letter-spacing:.15em;font-weight:600;color:var(--green);margin:0 0 24px}.spring-page .button{display:inline-flex;gap:50px;padding:17px 24px;background:var(--green);color:white;font-size:14px}.spring-page .text-link{font-size:13px}.spring-page .breadcrumb{font-size:12px;line-height:1.9;display:block}.spring-page .spring-nav,.spring-page .spring-chapters{position:static;background:none}.spring-page .spring-nav a{border:0}.spring-curated{scroll-margin-top:125px}.spring-back{padding-bottom:60px}@media(max-width:760px){.spring-page .spring-nav{display:flex!important;gap:20px;flex-wrap:wrap;width:100%}.spring-page .spring-chapters{display:grid!important}.spring-chapters a{padding:18px 13px}.spring-curated{scroll-margin-top:100px}}
