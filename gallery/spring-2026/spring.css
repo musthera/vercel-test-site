@@ -35,4 +35,13 @@
 
 .spring-intention h3{font-weight:700!important}.spring-intention h3 strong{font-weight:700;color:#236273}.spring-intention .spring-intention-emphasis{color:#9b4f38;font-weight:700}
 
+/* Six vessels in one continuous row beneath the curatorial statement. */
+.spring-vessels{grid-column:1/-1;display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:22px;margin-top:8px;align-items:start}
+.spring-vessel-card{margin:0;min-width:0;text-align:center}.spring-vessel-crop{position:relative;overflow:hidden;aspect-ratio:240/320;width:100%;max-width:160px;margin:0 auto 16px}.spring-vessel-crop img{position:absolute;max-width:none!important;height:auto;display:block}
+.spring-vessels .spring-vessel-card h3{font-family:"BM Jua","Malgun Gothic",sans-serif;font-size:18px;line-height:1.6;color:#236273;margin:0 0 13px;letter-spacing:0;word-break:keep-all}
+.spring-vessel-card h3 span{color:#9b4f38}.spring-vessels .spring-vessel-card p{font-size:16px;line-height:1.85;margin:0 0 8px;word-break:keep-all}.spring-vessels:focus-visible{outline:2px solid #236273;outline-offset:6px}
+@media(max-width:1000px){.spring-vessels{grid-template-columns:none;grid-auto-flow:column;grid-auto-columns:210px;overflow-x:auto;overscroll-behavior-x:contain;scroll-snap-type:x proximity;padding-bottom:14px;gap:24px}.spring-vessel-card{scroll-snap-align:start}}
+
+.spring-about-bouquets{display:block;width:100%;height:auto;max-width:410px;margin:38px auto 0}@media(max-width:800px){.spring-about-bouquets{max-width:360px;margin-top:26px}}
+
 .spring-page{--orange:var(--accent)}.spring-page .eyebrow{font-size:11px;letter-spacing:.15em;font-weight:600;color:var(--green);margin:0 0 24px}.spring-page .button{display:inline-flex;gap:50px;padding:17px 24px;background:var(--green);color:white;font-size:14px}.spring-page .text-link{font-size:13px}.spring-page .breadcrumb{font-size:12px;line-height:1.9;display:block}.spring-page .spring-nav,.spring-page .spring-chapters{position:static;background:none}.spring-page .spring-nav a{border:0}.spring-curated{scroll-margin-top:125px}.spring-back{padding-bottom:60px}@media(max-width:760px){.spring-page .spring-nav{display:flex!important;gap:20px;flex-wrap:wrap;width:100%}.spring-page .spring-chapters{display:grid!important}.spring-chapters a{padding:18px 13px}.spring-curated{scroll-margin-top:100px}}
