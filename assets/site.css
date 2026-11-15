@@ -88,6 +88,9 @@ footer .footer-inner strong{font-size:24px;line-height:1.6}footer .footer-inner 
 
 /* Readable introductory tagline */
 .hero-foot{font-size:22px;line-height:1.8;letter-spacing:.4px;font-weight:500}.hero-foot:before{flex-shrink:0}@media(max-width:800px){.hero-foot{font-size:19px;letter-spacing:0;gap:12px}.hero-foot:before{width:28px}}
+
+/* Readable association values and strength headings */
+#about .values{gap:20px 30px;flex-wrap:wrap}#about .values span{font-size:22px;line-height:1.7;gap:10px}#about .values i{width:7px;height:7px;flex-shrink:0}.strengths-grid h3,.strengths-grid h4{font-size:26px;line-height:1.65}.strength-number{font-size:20px;line-height:1.65;top:2px}.strengths-grid article{padding-left:48px}@media(max-width:800px){#about .values span{font-size:20px}.strengths-grid h3,.strengths-grid h4{font-size:23px}.strength-number{font-size:18px}.strengths-grid article{padding-left:42px}}
 /* Spring 2026 gallery entry */
 .gallery-exhibition[hidden]{display:none}.gallery-exhibition{margin-bottom:35px;border:1px solid var(--line);background:#edf0e6}.gallery-exhibition-link{display:grid;grid-template-columns:1fr 1.15fr;align-items:center}.gallery-exhibition-link>img{display:block;width:100%;height:auto;aspect-ratio:1797/985;object-fit:contain}.gallery-exhibition-link>div{padding:38px}.gallery-exhibition h2{font-size:32px;font-weight:500;line-height:1.5;letter-spacing:-1px;margin:0 0 20px}.gallery-exhibition p{font-size:15px;line-height:1.9;color:var(--muted)}.gallery-exhibition .gallery-exhibition-note{font-size:13px}.gallery-exhibition .button{margin-top:12px}.gallery-exhibition a:hover h2{color:var(--accent)}@media(max-width:760px){.gallery-exhibition-link{grid-template-columns:1fr}.gallery-exhibition-link>img{height:auto}.gallery-exhibition-link>div{padding:25px}.gallery-exhibition h2{font-size:26px}.gallery-head .filters{flex-wrap:wrap;justify-content:flex-start}}
 
