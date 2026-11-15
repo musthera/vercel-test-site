@@ -90,7 +90,7 @@ footer .footer-inner strong{font-size:24px;line-height:1.6}footer .footer-inner 
 .hero-foot{font-size:22px;line-height:1.8;letter-spacing:.4px;font-weight:500}.hero-foot:before{flex-shrink:0}@media(max-width:800px){.hero-foot{font-size:19px;letter-spacing:0;gap:12px}.hero-foot:before{width:28px}}
 
 /* Readable association values and strength headings */
-#about .values{gap:20px 30px;flex-wrap:wrap}#about .values span{font-size:22px;line-height:1.7;gap:10px}#about .values i{width:7px;height:7px;flex-shrink:0}.strengths-grid h3,.strengths-grid h4{font-size:26px;line-height:1.65}.strength-number{font-size:20px;line-height:1.65;top:2px}.strengths-grid article{padding-left:48px}@media(max-width:800px){#about .values span{font-size:20px}.strengths-grid h3,.strengths-grid h4{font-size:23px}.strength-number{font-size:18px}.strengths-grid article{padding-left:42px}}
+#about .values{gap:20px 30px;flex-wrap:wrap}#about .values span{font-size:22px;line-height:1.7;gap:10px}#about .values i{width:7px;height:7px;flex-shrink:0}#strengths .strengths-grid h3,#strengths .strengths-grid h4{font-size:26px;line-height:1.65}.strength-number{font-size:20px;line-height:1.65;top:2px}.strengths-grid article{padding-left:48px}@media(max-width:800px){#about .values span{font-size:20px}#strengths .strengths-grid h3,#strengths .strengths-grid h4{font-size:23px}.strength-number{font-size:18px}.strengths-grid article{padding-left:42px}}
 
 /* Readable award and publication captions */
 .award-photo figcaption{font-size:22px;line-height:1.8;margin-top:20px}.award-photo figcaption a{display:inline-flex;align-items:center;min-height:44px;font-size:22px;line-height:1.8;padding:4px 0}@media(max-width:800px){.award-photo figcaption,.award-photo figcaption a{font-size:20px}}
