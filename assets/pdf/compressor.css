@@ -2,3 +2,6 @@
 @media(max-width:850px){.pdf-layout{grid-template-columns:1fr;gap:32px}.resources-intro{gap:20px;flex-direction:column}.resources-privacy{flex-shrink:1}.pdf-guidance{padding-top:22px}.pdf-guidance ol{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}.pdf-guidance li+li{margin-top:0}}
 @media(max-width:560px){.resources-section{padding:36px 0 48px}.resources-intro h2{font-size:27px}.resources-intro p{font-size:13px}.pdf-card{padding:18px}.pdf-dropzone{padding:36px 15px}.pdf-dropzone h3{font-size:19px}.pdf-quality{gap:7px}.pdf-quality b{font-size:12px}.pdf-quality small{font-size:10px}.pdf-quality label>span{padding:14px 4px}.pdf-stats dd{font-size:18px}.pdf-guidance ol{display:block}.pdf-guidance li+li{margin-top:10px}.pdf-progress h3,.pdf-result h3{font-size:20px}}
 @media(prefers-reduced-motion:reduce){.pdf-spinner{animation:none}}
+/* Match guidance heading sizes and highlight PDF section titles */
+.pdf-guidance-note h4{font-size:18px;line-height:1.7;font-weight:500;letter-spacing:-.5px}
+.resources-intro h2,.pdf-guidance h3,.pdf-guidance-note h4{color:#9b4f38}
