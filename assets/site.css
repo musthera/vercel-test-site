@@ -172,6 +172,10 @@ main .project-filters button[data-project-filter="education"]{--category-color:#
 main .project-filters button[data-project-filter][aria-pressed="true"]{box-shadow:0 0 0 3px var(--paper),0 0 0 5px var(--category-color);text-decoration:underline;text-underline-offset:5px}
 main [data-project-filter]:hover{filter:brightness(1.08)}
 
+
+/* Project field names use the same colors as the home cards */
+.project-healing-label{color:#526e45}.project-education-label{color:#a6532f}
+
 /* Spring 2026 gallery entry */
 .gallery-exhibition[hidden]{display:none}.gallery-exhibition{margin-bottom:35px;border:1px solid var(--line);background:#edf0e6}.gallery-exhibition-link{display:grid;grid-template-columns:1fr 1.15fr;align-items:center}.gallery-exhibition-link>img{display:block;width:100%;height:auto;aspect-ratio:1797/985;object-fit:contain}.gallery-exhibition-link>div{padding:38px}.gallery-exhibition h2{font-size:32px;font-weight:500;line-height:1.5;letter-spacing:-1px;margin:0 0 20px}.gallery-exhibition p{font-size:15px;line-height:1.9;color:var(--muted)}.gallery-exhibition .gallery-exhibition-note{font-size:13px}.gallery-exhibition .button{margin-top:12px}.gallery-exhibition a:hover h2{color:var(--accent)}@media(max-width:760px){.gallery-exhibition-link{grid-template-columns:1fr}.gallery-exhibition-link>img{height:auto}.gallery-exhibition-link>div{padding:25px}.gallery-exhibition h2{font-size:26px}.gallery-head .filters{flex-wrap:wrap;justify-content:flex-start}}
 
