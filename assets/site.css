@@ -150,6 +150,12 @@ main .text-link:hover,main .text-link:focus-visible,main .button:hover,main .but
 .home-section-heading .text-link{flex-shrink:0}.hero-actions{flex-wrap:wrap}.spring-back,.spring-section-footer{gap:16px;flex-wrap:wrap}.award-citation li+li{margin-top:12px}
 @media(max-width:760px){main .text-link,main .button,main .award-photo figcaption a,main .video-caption>a,main .spring-youtube>p>a,main .spring-section-footer>a[href="/gallery/"]{padding:12px 18px}.home-section-heading .text-link{white-space:normal}.spring-back{align-items:flex-start}}
 
+
+/* Center button labels without decorative arrow space; soften green boxes */
+main .text-link,main .button,main .spring-page .button,main .award-photo figcaption a,main .video-caption>a,main .spring-youtube>p>a,main .spring-section-footer>a[href="/gallery/"]{justify-content:center;align-items:center;text-align:center;gap:0;padding-inline:22px;background:#3b6553;border-color:#3b6553}
+main .button>span[aria-hidden="true"],main .text-link>span[aria-hidden="true"]{display:none}
+main .home-card-link{justify-content:center;text-align:center;gap:0;padding-inline:22px}
+
 /* Spring 2026 gallery entry */
 .gallery-exhibition[hidden]{display:none}.gallery-exhibition{margin-bottom:35px;border:1px solid var(--line);background:#edf0e6}.gallery-exhibition-link{display:grid;grid-template-columns:1fr 1.15fr;align-items:center}.gallery-exhibition-link>img{display:block;width:100%;height:auto;aspect-ratio:1797/985;object-fit:contain}.gallery-exhibition-link>div{padding:38px}.gallery-exhibition h2{font-size:32px;font-weight:500;line-height:1.5;letter-spacing:-1px;margin:0 0 20px}.gallery-exhibition p{font-size:15px;line-height:1.9;color:var(--muted)}.gallery-exhibition .gallery-exhibition-note{font-size:13px}.gallery-exhibition .button{margin-top:12px}.gallery-exhibition a:hover h2{color:var(--accent)}@media(max-width:760px){.gallery-exhibition-link{grid-template-columns:1fr}.gallery-exhibition-link>img{height:auto}.gallery-exhibition-link>div{padding:25px}.gallery-exhibition h2{font-size:26px}.gallery-head .filters{flex-wrap:wrap;justify-content:flex-start}}
 
