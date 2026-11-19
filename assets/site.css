@@ -135,6 +135,14 @@ footer .footer-inner .footer-links{gap:12px 24px;max-width:100%}footer .footer-i
 /* Match home project titles to their accent rules */
 .home-page .home-project-card h3{color:#8b9c7c}.home-page .home-project-card:nth-child(2) h3{color:#c78965}
 
+
+/* Deeper project colors and filled calls to action */
+.home-page .home-project-card{--project-accent:#526e45;border-top-color:var(--project-accent)}
+.home-page .home-project-card:nth-child(2){--project-accent:#a6532f;border-top-color:var(--project-accent)}
+.home-page .home-project-card h3,.home-page .home-project-card:nth-child(2) h3{color:var(--project-accent)}
+.home-page .home-card-link{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:12px 22px;background:var(--project-accent);color:#fff;border:0;line-height:1.6}
+.home-page .home-project-card:hover .home-card-link,.home-page .home-project-card:focus-visible .home-card-link{filter:brightness(.9)}
+
 /* Spring 2026 gallery entry */
 .gallery-exhibition[hidden]{display:none}.gallery-exhibition{margin-bottom:35px;border:1px solid var(--line);background:#edf0e6}.gallery-exhibition-link{display:grid;grid-template-columns:1fr 1.15fr;align-items:center}.gallery-exhibition-link>img{display:block;width:100%;height:auto;aspect-ratio:1797/985;object-fit:contain}.gallery-exhibition-link>div{padding:38px}.gallery-exhibition h2{font-size:32px;font-weight:500;line-height:1.5;letter-spacing:-1px;margin:0 0 20px}.gallery-exhibition p{font-size:15px;line-height:1.9;color:var(--muted)}.gallery-exhibition .gallery-exhibition-note{font-size:13px}.gallery-exhibition .button{margin-top:12px}.gallery-exhibition a:hover h2{color:var(--accent)}@media(max-width:760px){.gallery-exhibition-link{grid-template-columns:1fr}.gallery-exhibition-link>img{height:auto}.gallery-exhibition-link>div{padding:25px}.gallery-exhibition h2{font-size:26px}.gallery-head .filters{flex-wrap:wrap;justify-content:flex-start}}
 
