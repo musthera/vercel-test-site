@@ -156,6 +156,11 @@ main .text-link,main .button,main .spring-page .button,main .award-photo figcapt
 main .button>span[aria-hidden="true"],main .text-link>span[aria-hidden="true"]{display:none}
 main .home-card-link{justify-content:center;text-align:center;gap:0;padding-inline:22px}
 
+
+/* Association logo under the closing message */
+.bottom-message .bottom-association-logo{display:block;width:320px;max-width:80%;height:auto;margin:28px auto 0}
+@media(max-width:760px){.bottom-message .bottom-association-logo{width:280px;max-width:85%;margin-top:24px}}
+
 /* Spring 2026 gallery entry */
 .gallery-exhibition[hidden]{display:none}.gallery-exhibition{margin-bottom:35px;border:1px solid var(--line);background:#edf0e6}.gallery-exhibition-link{display:grid;grid-template-columns:1fr 1.15fr;align-items:center}.gallery-exhibition-link>img{display:block;width:100%;height:auto;aspect-ratio:1797/985;object-fit:contain}.gallery-exhibition-link>div{padding:38px}.gallery-exhibition h2{font-size:32px;font-weight:500;line-height:1.5;letter-spacing:-1px;margin:0 0 20px}.gallery-exhibition p{font-size:15px;line-height:1.9;color:var(--muted)}.gallery-exhibition .gallery-exhibition-note{font-size:13px}.gallery-exhibition .button{margin-top:12px}.gallery-exhibition a:hover h2{color:var(--accent)}@media(max-width:760px){.gallery-exhibition-link{grid-template-columns:1fr}.gallery-exhibition-link>img{height:auto}.gallery-exhibition-link>div{padding:25px}.gallery-exhibition h2{font-size:26px}.gallery-head .filters{flex-wrap:wrap;justify-content:flex-start}}
 
