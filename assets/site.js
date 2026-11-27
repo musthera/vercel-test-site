@@ -10,7 +10,9 @@ document.querySelectorAll('[data-filter]').forEach(button=>button.addEventListen
  items.forEach(item=>{item.hidden=type!=='전체'&&item.dataset.galleryType!==type});
  const count=items.filter(item=>!item.hidden).length;
  document.getElementById('gallery-empty').hidden=count>0;
- document.getElementById('gallery-count').textContent=type==='전체'?'전체 2건 · 작품전시회 1건 · 영상 1건':(type==='전시'?'작품전시회':type)+' '+count+'건';
+ const labels={'전시':'작품전시회 영상','영상':'작품발표 영상','사진':'활동 영상'};
+ const summary=Object.keys(labels).map(key=>({label:labels[key],count:items.filter(item=>item.dataset.galleryType===key).length})).filter(entry=>entry.count>0).map(entry=>entry.label+' '+entry.count+'건');
+ document.getElementById('gallery-count').textContent=type==='전체'?'전체 '+items.length+'건 · '+summary.join(' · '):labels[type]+' '+count+'건';
 }));
 document.querySelectorAll('[data-project-filter]').forEach(button=>button.addEventListener('click',()=>{
  const category=button.dataset.projectFilter;
