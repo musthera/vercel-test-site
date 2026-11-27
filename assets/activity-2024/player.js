@@ -21,7 +21,7 @@ document.querySelectorAll('.activity-unlock').forEach(form=>{
    player.replaceChildren(iframe);player.hidden=false;card.querySelector('.activity-poster').hidden=true;
    input.value='';form.hidden=true;card.querySelector('.activity-relock').hidden=false;
    status.textContent='';iframe.focus();
-  }catch(error){status.textContent=window.isSecureContext?'비밀번호가 올바르지 않습니다. 다시 입력해 주세요.':'보안 연결(HTTPS)에서 다시 시도해 주세요.';input.select();}
+  }catch(error){status.textContent=window.isSecureContext?'관람코드가 올바르지 않습니다. 다시 입력해 주세요.':'보안 연결(HTTPS)에서 다시 시도해 주세요.';input.select();}
   finally{button.disabled=false;}
  });
 });
